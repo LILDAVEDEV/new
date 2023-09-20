@@ -1,0 +1,856 @@
+*{
+
+
+    box-sizing: border-box;
+}
+
+.monopoly-container{
+    background-color: red;
+    height: 7vh;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    /* border: 5px solid red; */
+    max-height: 110vh;
+    height: 100vh;
+    width: 80vw;
+     max-width: 120vw; 
+     margin: auto;
+     /* margin-top: 130px; */
+}
+
+table{
+    height: 50vh;
+    /* border: 5px solid ; */
+    /* border-collapse: collapse; */
+    width: 80%;
+    margin: 5px auto;
+    max-height: 80vh;
+    background-color: rgba(0, 128, 0, 0.501) ;
+}
+
+td{
+   padding: 2em;
+}
+
+.community-chest-container{
+    /* border: 5px dotted black; */
+    margin-top: 5px;
+    margin-left: 550px;
+    height: 25vh;
+    width: 35%;
+    rotate: 30deg;
+    background-image: url(./community-chest-deck.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.chance-container{
+    /* border: 5px dotted brown; */
+    height: 25vh;
+    width: 35%;
+    rotate: 30deg;
+    margin-left: 30px;
+    margin-top: 110px;
+    background-image: url(./chance\ deck.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mayfair-container{
+    border: 5px solid red;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    width: 7vw;
+    height: 14.5vh;
+}
+.color{
+    background-color: blue;
+    height: 25px;
+    border-bottom: 5px solid black;
+}
+
+#mayfair{
+    padding: 0;
+    /* width: 7vw; */
+}
+
+.name{
+    padding-top: 5px;
+}
+
+.price{
+    margin-top: 30px;
+}
+
+#parklane{
+    padding: 0;
+    width: 7vw;
+}
+
+.parklane-container{
+    border: 5px solid red;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    max-width: 7vw;
+    height: 14.5vh;
+    
+}
+
+#oxford-street{
+    padding: 0;
+    width: 7vw;
+}
+
+.oxford-street-container{
+    border: 5px solid red;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    max-width: 7vw;
+    height: 14.5vh;
+}
+
+.oxford-street-container .name{
+    /* font-size: 30px; */
+}
+
+/* picadilly */
+
+#picadilly{
+    padding: 0;
+    width: 7vw;
+}
+
+.picadilly-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    max-width: 7vw;
+    height: 14.5vh;
+}
+
+/* euston-road */
+
+
+#euston-road{
+    padding: 0;
+    width: 7vw;
+}
+
+.euston-road-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    max-width: 7vw;
+    height: 14.5vh;
+}
+
+/* vine-street */
+
+#vine-street{
+    padding: 0;
+    height: 7vw;
+}
+
+.vine-street-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    width: 7vw;
+    rotate: 90deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* coventry-street */
+
+
+#coventry-street{
+    padding: 0;
+    height: 7vw;
+}
+
+.coventry-street-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    width: 7vw;
+    rotate: 90deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* leicester-station */
+
+
+#leicester-station{
+    padding: 0;
+    height: 7vw;
+}
+
+.leicester-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    width: 7vw;
+    rotate: 90deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* bow-street */
+
+
+#bow-street{
+    padding: 0;
+    height: 7vw;
+}
+
+.bow-street-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    width: 7vw;
+    rotate: 90deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* white-chapel-road */
+
+
+#white-chapel-road{
+    padding: 0;
+    height: 7vw;
+}
+
+.white-chapel-road-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    width: 7vw;
+    rotate: 90deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* the-angel-islington */
+
+
+
+#the-angel-islington{
+    padding: 0;
+    /* height: 7vw; */
+}
+
+.the-angel-islington-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    /* width: 7vw; */
+    rotate: 180deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* travalgar-square */
+
+
+#travalgar-square{
+    padding: 0;
+    /* height: 7vw; */
+}
+
+.travalgar-square-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    /* width: 7vw; */
+    rotate: 180deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* northumld-avenue */
+
+#northumld-avenue{
+    padding: 0;
+    /* height: 7vw; */
+}
+
+.northumld-avenue-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    /* width: 7vw; */
+    rotate: 180deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* m-borough-street */
+
+#m-borough-street{
+    padding: 0;
+    /* height: 7vw; */
+}
+
+.m-borough-street-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    /* width: 7vw; */
+    rotate: 180deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* fleet-street */
+
+#fleet-street{
+    padding: 0;
+    /* height: 7vw; */
+}
+
+.fleet-street-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    /* width: 7vw; */
+    rotate: 180deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* old-kent-road */
+
+
+#old-kent-road{
+    padding: 0;
+    /* height: 7vw; */
+}
+
+.old-kent-road-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    /* width: 7vw; */
+    rotate: 180deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* white-hall */
+
+#white-hall{
+    padding: 0;
+    height: 7vw;
+}
+
+.white-hall-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    width: 7vw;
+    rotate: 270deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* penton-ville-road */
+
+
+#penton-ville-road{
+    padding: 0;
+    height: 7vw;
+}
+
+.penton-ville-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    width: 7vw;
+    rotate: 270deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* pallmall */
+
+
+#pallmall{
+    padding: 0;
+    height: 7vw;
+}
+
+.pallmall-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    width: 7vw;
+    rotate: 270deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* bond-street */
+
+#bond-street{
+    padding: 0;
+    height: 7vw;
+}
+
+.bond-street-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    width: 7vw;
+    rotate: 270deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* strand */
+
+#strand{
+    padding: 0;
+    height: 7vw;
+}
+
+.strand-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    width: 7vw;
+    rotate: 270deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+/* regent-street */
+
+
+#regent-street{
+    padding: 0;
+    height: 7vw;
+}
+
+.regent-street-container{
+    border: 3px solid black;
+    text-align: center;
+    /* margin-bottom: 40px; */
+    /* width: 100%; */
+    width: 7vw;
+    rotate: 270deg;
+    /* margin-left: 60px; */
+    height: 14.5vh;
+    
+}
+
+#go-to-jail{
+    padding: 0;
+}
+
+#go-to-jail .image{
+    background-image: url(./go\ to\ jail.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14.5vh;
+    /* font-size: 5px; */
+    /* object-fit: contain; */
+    width: 7vw;
+}
+
+/* .image{
+    border: 5px solid green;
+    font-size: 10px;
+} */
+
+#collect-as-you-go{
+    padding: 0;
+}
+
+#collect-as-you-go .image{
+    background-image: url(./collect\ as\ you\ go.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 3vh; */
+    /* font-size: 5px; */
+    object-fit: contain;
+    border: 5px solid black;
+    width: 7vw;
+    height: 14.5vh;
+    margin: auto;
+}
+
+#free-parking{
+    padding: 0;
+}
+
+#free-parking .image{
+    background-image: url(./free\ parking.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 3vh; */
+    /* font-size: 5px; */
+    object-fit: contain;
+    border: 5px solid purple;
+    width: 7vw;
+    height: 14.5vh;
+    margin: auto;
+}
+
+#just-visiting{
+    padding: 0;
+}
+
+#just-visiting .image{
+    background-image: url(./just\ visiting.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 3vh; */
+    /* font-size: 5px; */
+    object-fit: contain;
+    border: 5px solid black;
+    width: 7vw;
+    height: 14.5vh;
+    margin: auto;
+}
+
+#community-chest-tile{
+    padding: 0;
+    /* border: 5px solid blue; */
+}
+
+.community-chest-image{
+     background-image: url(./new\ community-chest.jfif);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 15vh;
+    /* width: vw;  */
+    rotate: 90deg;
+}
+
+.chance-tile{
+    padding: 0;
+    margin: 5px solid blue;
+}
+
+
+.chance-tile .chance-image-tile{
+    background-image: url(./chance\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3.5vw;
+    height: 13vh;
+    rotate: 90deg;
+    border: 3px solid black;
+    margin: auto;
+    
+}
+
+
+.chance-tile .chance-image-tile-2{
+    background-image: url(./chanceblue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3.5vw;
+    height: 13vh;
+    rotate: 90deg;
+    border: 3px solid black;
+    margin: auto;
+    
+}
+
+.station-name{
+
+}
+
+.station-image{
+   background-image: url(./STATION.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 3.5vw;
+   height: 5vh;
+   border: 3px solid black;
+   
+}
+
+.station-price{
+
+}
+
+.marylebone-container{
+    rotate: 90deg;
+    border: 3px solid black;
+    
+}
+
+.marylebone-station{
+    padding: 0;
+    width: 7vw;
+    text-align: center;
+    /* height: 10vh; */
+}
+
+
+.chance-tile .chance-image-tile-3{
+    background-image: url(./chanceblue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3.5vw;
+    height: 13vh;
+    /* rotate: 90deg; */
+    border: 3px solid black;
+    margin: auto;
+}
+
+#electricity{
+    padding: 0;
+}
+
+.electricity-image{
+    background-image: url(./electricity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    height: 15vh;
+    width: 8vw;
+    
+}
+
+#water-works{
+    padding: 0;
+    width: 15vw;
+}
+
+.water-works{
+     background-image: url(./water\ works.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    rotate: 90deg;
+    height: 15vh; */
+}
+
+#community-chest-2{
+   padding: 0;
+}
+
+.community-chest-2-image{
+    background-image: url(./new\ community-chest.jfif);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 15vh;
+    width: 5vw; 
+    /* rotate: 0deg; */
+}
+
+#community-chest-3{
+    padding: 0;
+ }
+ 
+ .community-chest-3-image{
+     background-image: url(./new\ community-chest.jfif);
+     background-repeat:  no-repeat;
+     background-size: cover;
+     height: 15vh;
+     width: 5vw; 
+     rotate: 180deg;
+ }
+
+ .king-cross-station{
+    padding: 0;
+    /* border: 5px solid chartreuse; */
+ }
+
+ .king-cross-station-image{
+    background-image: url(./STATION.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 15vh;
+    width: 7vw; 
+    rotate: 270deg;
+ }
+
+ .liverpool-station{
+   padding: 0;
+   /* border: 5px solid chartreuse; */
+ }
+
+ .liverpool-image{
+    background-image: url(./STATION.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 14vh;
+    width: 8vw; 
+    /* rotate: 270deg; */
+ }
+
+ .marylebone-station{
+    padding: 0;
+    /* border: 5px solid brown; */
+ }
+
+ .marylebone-station-image{
+    background-image: url(./STATION.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 14.5vh;
+    width: 7vw; 
+    rotate: 90deg;
+ }
+
+ #last-station{
+    padding: 0;
+    /* border: 5px solid yellow; */
+ }
+
+.last-station-image{
+    background-image: url(./STATION.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 14vh;
+    width: 8vw; 
+    rotate: 180deg;
+}
+
+#income-tax{
+    padding: 0;
+    /* border: 5px solid yellow; */
+}
+
+.income-tax-image{
+    background-image: url(./income\ tax.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 13.5vh;
+    width: 7vw;
+    rotate: 90deg;
+}
+
+#super-tax{
+    padding: 0;
+}
+
+.super-tax-image{
+    background-image: url(./super\ tax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14.5vh;
+    width: 8vw;
+    /* rotate: 90deg; */
+}
+
+.monopoly-container{
+    background-image: url(./mono.png);
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 40vw;
+    background-size: cover;
+    rotate: 30deg;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.color-green{
+    background-color: green;
+    height: 25px;
+    border-bottom: 5px solid black;
+}
+
+.color-yellow{
+    background-color: yellow;
+    height: 25px;
+    border-bottom: 5px solid black;
+}
+
+.color-red{
+    background-color: red;
+    height: 25px;
+    border-bottom: 5px solid black
+}
+
+.color-orange{
+    background-color: orange;
+    height: 25px;
+    border-bottom: 5px solid black
+}
+
+.color-purple{
+    background-color: purple;
+    height: 25px;
+    border-bottom: 5px solid black
+}
+
+.color-light-blue{
+    background-color: lightskyblue;
+    height: 25px;
+    border-bottom: 5px solid black
+}
+
+.color-brown{
+    background-color: brown;
+    height: 25px;
+    border-bottom: 5px solid black
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
